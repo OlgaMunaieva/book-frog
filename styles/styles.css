@@ -28,6 +28,10 @@ body {
     padding: 20px;
     margin: 40px;
     text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/bg.jpg);
 }
 
 .image {
