@@ -38,7 +38,7 @@ body {
     position: absolute;
     /* top: 50%; */
     left: 50%;
-    transform: translate(-58%, -10%);
+    transform: translate(-59%, -10%);
 }
 
 .card {
@@ -60,6 +60,14 @@ body {
 .card:hover {
     transform: translate(0%, 20%) scale(1.8);
     z-index: 99;
+}
+
+.card.left:hover {
+    transform: translate(-10%, 20%) scale(1.8);
+}
+
+.card.right:hover {
+    transform: translate(10%, 20%) scale(1.8);
 }
 
 .unvisual {
