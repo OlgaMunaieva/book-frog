@@ -34,7 +34,7 @@ body {
     position: absolute;
     /* top: 50%; */
     left: 50%;
-    transform: translate(-53%);
+    transform: translate(-57%);
 }
 
 .card {
@@ -44,7 +44,7 @@ body {
     align-items: center;
     flex-direction: column;
     flex-basis: calc((100% - 40px)/9);
-    height: 400px;
+    /* height: 400px; */
     /* border: 1px solid; */
     cursor: pointer;
     /* background-color: aquamarine; */
