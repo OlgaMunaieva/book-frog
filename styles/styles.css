@@ -26,7 +26,7 @@ body {
     width: 100% - 80px;
 
     padding: 20px;
-    margin: 70px;
+    margin: 40px;
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ body {
     position: absolute;
     /* top: 50%; */
     left: 50%;
-    transform: translate(-57%);
+    transform: translate(-58%, -10%);
 }
 
 .card {
@@ -48,6 +48,8 @@ body {
     /* border: 1px solid; */
     cursor: pointer;
     /* background-color: aquamarine; */
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -61,8 +63,9 @@ body {
 }
 
 .title {
-    width: 100%;
-    background-color: rgb(5, 94, 66);
+    min-width: 94%;
+
+    background-color: rgb(102, 126, 85);
     color: antiquewhite;
     font-size: 15px;
     min-height: 30px;
@@ -76,5 +79,5 @@ body {
     padding: 2px 4px;
     text-decoration: none;
     list-style: none;
-    background-color: aquamarine;
+    background-color: rgb(205, 241, 153);
 }
