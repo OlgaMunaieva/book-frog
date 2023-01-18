@@ -121,7 +121,13 @@ body {
 }
 
 .unvisual {
-    visibility: hidden;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .unvisual {
+        visibility: hidden;
+    }
 }
 
 .title {
